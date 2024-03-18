@@ -1,0 +1,17 @@
+[1.180s] Invoking command in '/home/junho/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/junho/ros2_ws/build/my_robot_controller/prefix_override:/home/junho/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/junho/ros2_ws/build/my_robot_controller/build --no-deps install_data
+[1.642s] running develop
+[1.884s] running egg_info
+[1.884s] writing my_robot_controller.egg-info/PKG-INFO
+[1.885s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.885s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.887s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.887s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.889s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.891s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.893s] running build_ext
+[1.893s] Creating /home/junho/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.894s] Installing test_node script to /home/junho/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.895s] 
+[1.895s] Installed /home/junho/ros2_ws/build/my_robot_controller
+[1.895s] running install_data
+[1.929s] Invoked command in '/home/junho/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/junho/ros2_ws/build/my_robot_controller/prefix_override:/home/junho/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/junho/ros2_ws/build/my_robot_controller/build --no-deps install_data

@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            # script below allows direct commands (i.e. ros2 run)
+            "test_node = my_robot_controller.my_first_node:main"
         ],
     },
 )

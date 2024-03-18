@@ -6,18 +6,11 @@ import rclpy
 from rclpy.node import Node
 
 # node classes inherit from default node class in rclpy
-# class = node
 class MyNode(Node):
     # create constructor
     def __init__(self):
         super().__init__("first_node") # call the 'Node' class constructor
-        # self.get_logger().info("Hello & Goodbye from ROS2") # write in logger
-        self.counter_ = 0
-        self.create_timer(1.0, self.timer_callback) # create_timer is built-in function
-
-    def timer_callback(self):
-        self.get_logger().info("Hello " + str(self.counter_))
-        self.counter_ += 1
+        self.get_logger().info("Hello from ROS2") # write in logger
 
 def main(args=None):
     rclpy.init(args=args) # intialize ros2 communication
